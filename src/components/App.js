@@ -1,9 +1,20 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
+      usuarios: []
+    };
+  }
+
+  async componentDidMount() {
+    const respuesta = await axios.get(
+      "https://jsonplaceholder.typicode.com/users"
+    );
+      console.log(respuesta.data)
+    this.setState({
       usuarios: [
         {
           nombre: "Ariel",
@@ -16,7 +27,7 @@ class App extends Component {
           enlace: "Platzi.com"
         }
       ]
-    };
+    });
   }
 
   ponerFilas = () =>

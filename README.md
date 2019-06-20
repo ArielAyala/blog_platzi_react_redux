@@ -17,3 +17,23 @@ ___
 
 ![Ciclo de vida de componentes en React](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/ciclo%20de%20vida%20de%20componentes%20react.png?raw=true)
 
+#### Manejo de promesas
+Una **Promesa** es un proxy para un valor no necesariamente conocido en el momento que es creada la promesa.
+Las promesas tienen tres estados:
+- pending
+- fullfilled
+- rejected
+
+Las promesas se invocan de la siguiente forma:
+
+```js
+new  Promise( ( resolve, reject ) => {
+// --- llamado asíncrono 
+        if( todoOK ) { 
+        // -- se ejecutó el llamado exitosamente resolve() }
+        else { 
+        // -- hubo un error en el llamado reject() 
+        } 
+} )
+```
+

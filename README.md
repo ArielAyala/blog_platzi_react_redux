@@ -37,3 +37,14 @@ new  Promise( ( resolve, reject ) => {
 } )
 ```
 
+#### ¿Qúe es Redux, cuándo usarlo y porqué?
+Es una herramienta de uso libre que nos permite manejar **todo el estado de nuestra aplicación** en un solo lugar.<br>
+
+Principios<br>
+- Almacenamiento
+- Inmutable
+- Centralizado
+
+Redux es nuestra única fuente de la verdad.
+
+

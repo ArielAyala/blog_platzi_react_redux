@@ -1,4 +1,3 @@
-
 ## Proyecto de Blog para práctica del curso de [Redux por bedu](https://platzi.com) de [Platzi](https://platzi.com/cursos/redux/)
 
 
@@ -6,7 +5,12 @@
 Para iniciar el proyecto en modo desarrollo en el puerto 3000
 ___
 
-### Resúmen del curso
+### **Anotaciones del curso**
+
+- [Ciclo de vida de componentes en React](#Resúmen-del-curso)
+- [Manejo de promesas](#manejo-de-promesas)
+- [¿Qúe es Redux, cuándo usarlo y porqué?](#que-es-Redux-cuándo-usarlo-y-porqués)
+
 #### Ciclo de vida de componentes en React
 
 **Tenemos 4 fases por los que un componente pasa:**
@@ -46,5 +50,3 @@ Principios<br>
 - Centralizado
 
 Redux es nuestra única fuente de la verdad.
-
-

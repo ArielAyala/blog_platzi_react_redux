@@ -11,6 +11,9 @@ ___
 - [Manejo de promesas](#manejo-de-promesas)
 - [¿Qúe es Redux, cuándo usarlo y porqué?](#q%C3%BAe-es-redux-cu%C3%A1ndo-usarlo-y-porqu%C3%A9)
 
+___
+
+
 #### Ciclo de vida de componentes en React
 
 **Tenemos 4 fases por los que un componente pasa:**

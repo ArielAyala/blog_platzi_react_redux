@@ -11,3 +11,18 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+#menu {
+  background-color: #253a46;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#menu a {
+  color: white;
+  padding-right: 50px;
+}
+
+body {
+  margin: 0;
+}

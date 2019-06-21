@@ -12,6 +12,7 @@ ___
 - [¿Qúe es Redux, cuándo usarlo y porqué?](#q%C3%BAe-es-redux-cu%C3%A1ndo-usarlo-y-porqu%C3%A9)
 - [Fases de Redux](#las-fases-de-redux)
 - [Store](#store)
+- [Reducers](#reducers)
 
 ___
 

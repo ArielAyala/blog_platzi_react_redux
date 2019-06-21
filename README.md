@@ -10,6 +10,7 @@ ___
 - [Ciclo de vida de componentes en React](#ciclo-de-vida-de-componentes-en-react)
 - [Manejo de promesas](#manejo-de-promesas)
 - [¿Qúe es Redux, cuándo usarlo y porqué?](#q%C3%BAe-es-redux-cu%C3%A1ndo-usarlo-y-porqu%C3%A9)
+- [Fases de Redux]()
 
 ___
 
@@ -53,3 +54,13 @@ Principios<br>
 - Centralizado
 
 Redux es nuestra única fuente de la verdad.
+
+#### Las fases de Redux
+- Store: El principal de redux, almacena toda la información y los estados.
+- Redurecs: Son (dependiendo de los componentes) la información que vamos a tener.
+- Action creators: Las funciones que debemos ejecutar para pedir informaciòn (normalmente son promesas).
+- Componente (JSX): Los componentes de React que estamos viendo en la interfaz.
+
+
+
+

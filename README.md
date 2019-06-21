@@ -72,6 +72,11 @@ Redux es nuestra única fuente de la verdad.
  - Registra los *listeners* vía `suscribe(listener)`
  - Maneja la anulación del registro de los *listeners* vía el retorno de la función de `subscribe(listener)` 
  
+#### Reducers
+Las *Action creators* describen que algo pasó, pero no especifican cómo cambió el estado de la aplicación en respuesta. <br>
+**Esto es trabajo de los reducers**<br>
+El *Provider* es el componente de Redux en el cual encerraremos nuestra aplicación para que puedan comunicarse los componentes entre ellos.
+
 
 
 

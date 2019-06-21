@@ -10,7 +10,7 @@ ___
 - [Ciclo de vida de componentes en React](#ciclo-de-vida-de-componentes-en-react)
 - [Manejo de promesas](#manejo-de-promesas)
 - [¿Qúe es Redux, cuándo usarlo y porqué?](#q%C3%BAe-es-redux-cu%C3%A1ndo-usarlo-y-porqu%C3%A9)
-- [Fases de Redux]()
+- [Fases de Redux](#las-fases-de-redux)
 
 ___
 

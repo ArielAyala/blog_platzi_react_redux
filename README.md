@@ -63,6 +63,14 @@ Redux es nuestra única fuente de la verdad.
 
 ![Funcionamiento de Redux](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/funcionamiento_redux.png?raw=true)
 
+#### Store
+> El *store* tien las siguientes posibilidades:
+ - Contiene el estado de la aplicación
+ - Permite el acceso al estado vía `getsate()`
+ - Permite que el estado sea actualizado vía `dispatch (action)`
+ - Registra los *listeners* vía `suscribe(listener)`
+ - Maneja la anulación del registro de los *listeners* vía el retorno de la función de `subscribe(listener)` 
+ 
 
 
 

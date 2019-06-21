@@ -61,6 +61,8 @@ Redux es nuestra única fuente de la verdad.
 - Action creators: Las funciones que debemos ejecutar para pedir informaciòn (normalmente son promesas).
 - Componente (JSX): Los componentes de React que estamos viendo en la interfaz.
 
+![Funcionamiento de Redux](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/funcionamiento_redux.png?raw=true)
+
 
 
 

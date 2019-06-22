@@ -1,4 +1,5 @@
 import axios from "axios";
+import { TRAER_TODOS } from "../types/usuariosTypes";
 
 export const traerTodos = () => async dispatch => {
   const respuesta = await axios.get(
@@ -6,7 +7,7 @@ export const traerTodos = () => async dispatch => {
   );
 
   dispatch({
-    type: "traer_usuarios",
+    type: TRAER_TODOS,
     payload: respuesta.data
   });
 };

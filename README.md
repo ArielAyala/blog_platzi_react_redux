@@ -14,6 +14,7 @@ ___
 - [Store](#store)
 - [Reducers](#reducers)
 - [Redux Thunk](#redux-thunk)
+- [Ciclo completo de redux](#ciclo-completo-de-redux)
 ___
 
 
@@ -83,7 +84,9 @@ Redux Thunk permite a las *actions creators* invertir el control despachando fun
 Van a recibir dispatch como argumento y capaz llamarlo asíncronamente. Estas funciones son llamadas *thunks*.
 
 #### Ciclo completo de redux
-![Ciclo completo de redux](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/ciclo%20de%20vida%20de%20componentes%20react.png?raw=true)
+![Ciclo completo de redux](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/ciclo%20completo%20de%20redux.png?raw=true)
+
+
 
 
 

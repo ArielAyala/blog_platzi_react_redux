@@ -82,7 +82,8 @@ El *Provider* es el componente de Redux en el cual encerraremos nuestra aplicaci
 Redux Thunk permite a las *actions creators* invertir el control despachando funciones. <br>
 Van a recibir dispatch como argumento y capaz llamarlo asíncronamente. Estas funciones son llamadas *thunks*.
 
-
+#### Ciclo completo de redux
+![Ciclo completo de redux](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/ciclo%20de%20vida%20de%20componentes%20react.png?raw=true)
 
 
 

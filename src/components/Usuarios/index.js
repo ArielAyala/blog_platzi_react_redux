@@ -4,12 +4,12 @@ import { connect } from "react-redux";
 import * as usuariosActions from "../../actions/usuariosActions";
 
 class Usuarios extends Component {
-   componentDidMount() {
-  	// const respuesta = await axios.get('https://jsonplaceholder.typicode.com/users');
-  	// this.setState({
-  	// 	usuarios: respuesta.data
+  componentDidMount() {
+    // const respuesta = await axios.get('https://jsonplaceholder.typicode.com/users');
+    // this.setState({
+    // 	usuarios: respuesta.data
     // });
-    this.props.traerTodos;
+    this.props.traerTodos();
   }
 
   ponerFilas = () =>
@@ -22,7 +22,7 @@ class Usuarios extends Component {
     ));
 
   render() {
-    console.log(this.props)
+    console.log(this.props);
     return (
       <div>
         <table className="tabla">

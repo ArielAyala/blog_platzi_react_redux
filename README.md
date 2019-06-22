@@ -13,7 +13,7 @@ ___
 - [Fases de Redux](#las-fases-de-redux)
 - [Store](#store)
 - [Reducers](#reducers)
-
+- [Redux Thunk](#redux-thunk)
 ___
 
 

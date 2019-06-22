@@ -78,6 +78,11 @@ Las *Action creators* describen que algo pasó, pero no especifican cómo cambi�
 **Esto es trabajo de los reducers**<br>
 El *Provider* es el componente de Redux en el cual encerraremos nuestra aplicación para que puedan comunicarse los componentes entre ellos.
 
+#### Redux Thunk
+Redux Thunk permite a las *actions creators* invertir el control despachando funciones. <br>
+Van a recibir dispatch como argumento y capaz llamarlo asíncronamente. Estas funciones son llamadas *thunks*.
+
+
 
 
 

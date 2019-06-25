@@ -3,3 +3,4 @@ export const CARGANDO = "publicaciones_cargando";
 export const ERROR = "publicaciones_error";
 export const COM_CARGANDO = "comenarios_cargando";
 export const COM_ERROR = "comentarios_error";
+export const COM_ACTUALIZAR = "comentarios_actualizar";

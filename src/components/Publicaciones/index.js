@@ -83,11 +83,11 @@ class Publicaciones extends Component {
   };
 
   mostrarInfo = (publicaciones, pub_key) =>
-    publicaciones.map(publicacion => (
+    publicaciones.map((publicacion,com_key) => (
       <div
         key={publicacion.id}
         className="pub_titulo"
-        onClick={() => alert(this.props.abrirCerrar())}
+        onClick={() => (this.props.abrirCerrar(pub_key,com_key))}
       >
         <h2>{publicacion.title}</h2>
         <h3>{publicacion.body}</h3>

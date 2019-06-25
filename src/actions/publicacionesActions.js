@@ -56,6 +56,6 @@ export const traerPorUsuario = key => async (dispatch, getState) => {
   }
 };
 
-export const abrirCerrar = () => dispatch => {
-  alert("Hola");
+export const abrirCerrar = (pub_key, com_key) => dispatch => {
+  console.log(pub_key, com_key);
 };

@@ -12,7 +12,8 @@ export const traerTodas = () => async dispatch => {
     );
 
     const tareas = {};
-    respuesta.data.map((tar) =>
+    respuesta.data.map(
+      tar =>
         (tareas[tar.userId] = {
           ...tareas[tar.userId],
           [tar.id]: {
@@ -32,4 +33,18 @@ export const traerTodas = () => async dispatch => {
       payload: "Información de tareas no disponible"
     });
   }
+};
+
+export const cambioUsuarioId = usuario_id => dispatch => {
+  dispatch({
+    type: "cambio_usuario_id",
+    payload: usuario_id
+  });
+};
+
+export const cambioTitulo = titulo => dispatch => {
+  dispatch({
+    type: "cambio_titulo",
+    payload: titulo
+  });
 };

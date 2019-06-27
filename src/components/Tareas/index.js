@@ -7,7 +7,9 @@ import { Link } from "react-router-dom";
 
 class Tareas extends Component {
   componentDidMount() {
-    this.props.traerTodas();
+    if (!Object.key(this.props.tareas).length) {
+      this.props.traerTodas();
+    }
   }
   mostrarContenido = () => {
     const { tareas, cargando, error } = this.props;

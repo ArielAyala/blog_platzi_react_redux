@@ -9,6 +9,15 @@ class Guardar extends Component {
   cambioTitulo = event => {
     this.props.cambioTitulo(event.target.value);
   };
+  guardar = () => {
+    const { usuario_id, titulo, agregar } = this.props;
+    const nuevaTarea = {
+      userId: usuario_id,
+      title: titulo,
+      completed: false
+    };
+    agregar(nuevaTarea);
+  };
 
   render() {
     return (
@@ -26,7 +35,7 @@ class Guardar extends Component {
         <input value={this.props.titulo} onChange={this.cambioTitulo} />
         <br />
         <br />
-        <button>Guardar</button>
+        <button onClick={this.guardar}>Guardar</button>
       </div>
     );
   }

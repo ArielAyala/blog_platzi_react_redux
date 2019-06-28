@@ -6,6 +6,23 @@ import Fatal from "../General/Fatal";
 import { Redirect } from "react-router-dom";
 
 class Guardar extends Component {
+  componentDidMount() {
+    const {
+      match: {
+        params: { usu_id, tar_id }
+      },
+      tareas,
+      cambioUsuarioId,
+      cambioTitulo
+    } = this.props;
+
+    if (usu_id && tar_id) {
+      const tarea = tareas[usu_id][tar_id];
+      //console.log(tarea);
+      cambioUsuarioId(tarea.userId);
+      cambioTitulo(tarea.title);
+    }
+  }
   cambioUsuarioId = event => {
     this.props.cambioUsuarioId(event.target.value);
   };
@@ -13,13 +30,34 @@ class Guardar extends Component {
     this.props.cambioTitulo(event.target.value);
   };
   guardar = () => {
-    const { usuario_id, titulo, agregar } = this.props;
+    const {
+      match: {
+        params: { usu_id, tar_id }
+      },
+      usuario_id,
+      titulo,
+      agregar,
+      tareas,
+      editar
+    } = this.props;
+
     const nuevaTarea = {
       userId: usuario_id,
       title: titulo,
       completed: false
     };
-    agregar(nuevaTarea);
+
+    if (usu_id && tar_id) {
+      const tarea = tareas[usu_id][tar_id];
+      const tarea_editada = {
+        ...nuevaTarea,
+        completed: tarea.completed,
+        id: tarea.id
+      };
+      editar(tarea_editada);
+    } else {
+      agregar(nuevaTarea);
+    }
   };
   deshabilitar = () => {
     const { usuario_id, titulo, cargando } = this.props;

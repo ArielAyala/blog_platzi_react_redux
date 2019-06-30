@@ -6,6 +6,9 @@ Para instalar las dependencias del proyecto
 
 `npm start`
 Para iniciar el proyecto en modo desarrollo en el puerto 3000
+
+Visitar la versión deploy https://ariel-ayala-blog-en-redux.now.sh/
+
 ___
 
 ### **Anotaciones del curso**

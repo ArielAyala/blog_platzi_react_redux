@@ -1,3 +1,5 @@
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ArielAyala&repo=blog_platzi_react_redux)](https://github.com/ArielAyala/blog_platzi_react_redux)
+
 ## Proyecto de Blog para práctica del curso de [Redux por bedu](https://platzi.com) de [Platzi](https://platzi.com/cursos/redux/)
 
 

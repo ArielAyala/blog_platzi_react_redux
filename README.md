@@ -1,3 +1,5 @@
+
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ArielAyala&repo=blog_platzi_react_redux)](https://github.com/ArielAyala/blog_platzi_react_redux)
 
 ## Proyecto de Blog para práctica del curso de [Redux por bedu](https://platzi.com) de [Platzi](https://platzi.com/cursos/redux/)
@@ -77,7 +79,7 @@ Redux es nuestra única fuente de la verdad.
 #### Store
 > El *store* tien las siguientes posibilidades:
  - Contiene el estado de la aplicación
- - Permite el acceso al estado vía `getsate()`
+ - Permite el acceso al estado vía `getState()`
  - Permite que el estado sea actualizado vía `dispatch (action)`
  - Registra los *listeners* vía `suscribe(listener)`
  - Maneja la anulación del registro de los *listeners* vía el retorno de la función de `subscribe(listener)` 
@@ -93,8 +95,3 @@ Van a recibir dispatch como argumento y capaz llamarlo asíncronamente. Estas fu
 
 #### Ciclo completo de redux
 ![Ciclo completo de redux](https://github.com/ArielAyala/blog_platzi_react_redux/blob/master/src/imagenes_resumen/ciclo%20completo%20de%20redux.png?raw=true)
-
-
-
-
-
